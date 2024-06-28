@@ -1,0 +1,130 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+
+body {
+    display: flex;
+    align-items: center;
+    background: linear-gradient(135deg, deepskyblue, purple);
+    height: 100vh;
+}
+
+.container {
+    width: 500px;
+    height: 400px;
+    background-color: #fff;
+    margin: auto;
+    border-radius: 30px;
+    padding: 20px;
+}
+
+.container h1 {
+    position: relative;
+    text-align: center;
+}
+
+.container h1 img {
+    position: absolute;
+    top: -10px;
+    margin-left: 10px;
+}
+
+img {
+    width: 50px;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: lightgray;
+    margin-top: 20px;
+    border-radius: 20px;
+    padding-left: 20px;
+    height: 48px;
+}
+
+input {
+    border: none;
+    background: transparent;
+    outline: none;
+    font-size: 22px;
+    width: 70%;
+    color: rgb(93, 93, 93);
+}
+
+button {
+    border: none;
+    background-color: deepskyblue;
+    color: white;
+    height: 48px;
+    padding: 0px 30px;
+    border-radius: 20px;
+    font-size: 25px;font-weight: bold;
+    cursor: pointer;
+}
+
+ul li span {
+    position: absolute;
+    right: 0px;
+    font-size: 1.5em;
+    cursor: pointer;
+}
+
+ul {
+    margin-top: 30px;
+}
+
+ul li {
+    position: relative;
+    list-style: none;
+
+    margin-left: 30px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+.checked {
+    color: grey;
+    text-decoration: line-through;
+}
+
+.checked::before {
+    width: 30px;
+    height: 30px;
+    top: -7px;
+    left: -35px;
+
+    text-decoration: line-through;
+    background-image: url(images/check.png);
+    background-size: cover;
+    background-position: center;
+}
+
+ul li::before {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: -7px;
+    left: -35px;
+    content: "";
+    background-image: url(images/check-circle.png);
+    background-size: cover;
+    cursor: pointer;
+}
+
+.lista {
+    display: flex;
+}
+
+ul div img {
+    position: absolute;
+    top: -8px;
+    left: -35px;
+    width: 30px;
+}
+

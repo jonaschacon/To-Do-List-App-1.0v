@@ -1,2 +1,2 @@
 # anotacoes
- Um ferramenta para criar anotações
+ Uma ferramenta para criar anotações
